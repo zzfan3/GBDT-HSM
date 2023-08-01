@@ -1,0 +1,11 @@
+hp:
+  lr:
+  - 0.001
+  depth:
+  - 4
+  - 6
+  l2_leaf_reg:
+  - null
+num_epochs: 600
+patience: 100
+verbose: false
