@@ -1,0 +1,19 @@
+hp:
+  iter_per_epoch:
+  - 10
+  - 20
+  lr:
+  - 0.0003
+  - 0.0003
+  hidden_dim:
+  - 128
+  name:
+  - GB_HSM
+  only_gbdt:
+  - false
+  dropout:
+  - 0.
+  depth:
+  - 6
+num_epochs: 600
+patience: 200

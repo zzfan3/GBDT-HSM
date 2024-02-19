@@ -1,0 +1,21 @@
+hp:
+  iter_per_epoch:
+  - 10
+  - 20
+  lr:
+  - 0.01
+  - 0.001
+  hidden_dim:
+  - 128
+  name:
+  - gcn
+  only_gbdt:
+  - false
+  - true
+  dropout:
+  - 0.
+  - 0.5
+  depth:
+  - 6
+num_epochs: 600
+patience: 600
